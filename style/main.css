@@ -1,0 +1,162 @@
+.cover{
+    position: absolute;
+    width: 1920px;
+    height: 96px;
+    left: 0px;
+    top: 0px;
+}
+.cover_word{
+    position: absolute;
+    width: 93px;
+    height: 29px;
+    left: 112px;
+    top: 34px;
+
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+/* identical to box height */
+
+
+/* White */
+    color: #FFFFFF;
+}
+
+
+
+.brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 24px;
+    height: 168px;
+    left: 1830px;
+    top: 96px;
+}
+
+.arts{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 48px;
+
+    position: absolute;
+    width: 1109px;
+    height: 298px;
+    left: 777px;
+    top: 391px;
+}
+
+.art_name_1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 366px;
+    height: 298px;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.art_name_1 :h1{
+    width: 59px;
+    height: 58px;
+    
+    font-family: 'Lacquer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.art_name_1 :h2{
+    width: 366px;
+    height: 240px;
+    
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 240px;
+}
+.art_name_2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 236px;
+    height: 144px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.art_name_3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 121px;
+    height: 108px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.art_name_4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 91px;
+    height: 89px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.art_name_5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 103px;
+    height: 72px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
